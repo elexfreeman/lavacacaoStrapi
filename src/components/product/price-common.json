@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_price_commons",
+  "info": {
+    "displayName": "Цена",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

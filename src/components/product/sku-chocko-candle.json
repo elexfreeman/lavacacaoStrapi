@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_product_sku_chocko_candles",
+  "info": {
+    "displayName": "Поля шоколадной конфеты",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "sku_btn_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_list": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "addFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.composition"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "candy_fillings",
+  "info": {
+    "singularName": "candy-filling",
+    "pluralName": "candy-fillings",
+    "displayName": "Начинка конфетная",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "composition": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::composition.composition"
+    }
+  }
+}

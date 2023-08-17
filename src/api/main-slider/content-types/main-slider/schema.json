@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_sliders",
+  "info": {
+    "singularName": "main-slider",
+    "pluralName": "main-sliders",
+    "displayName": "MainSlider"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main-page.slider-item"
+    }
+  }
+}

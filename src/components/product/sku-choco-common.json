@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_product_sku_choco_commons",
+  "info": {
+    "displayName": "Общие поля",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "main_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

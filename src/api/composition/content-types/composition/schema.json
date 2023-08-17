@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compositions",
+  "info": {
+    "singularName": "composition",
+    "pluralName": "compositions",
+    "displayName": "Состав",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

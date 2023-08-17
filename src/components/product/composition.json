@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_compositions",
+  "info": {
+    "displayName": "Дополнительные поля",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "dataValue": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "choco_types",
+  "info": {
+    "singularName": "choco-type",
+    "pluralName": "choco-types",
+    "displayName": "Виды шоколада",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "choco_percent": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "composition": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::composition.composition"
+    }
+  }
+}

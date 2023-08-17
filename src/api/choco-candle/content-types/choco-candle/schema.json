@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "choco_candles",
+  "info": {
+    "singularName": "choco-candle",
+    "pluralName": "choco-candles",
+    "displayName": "AA_Шоколадные конфеты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "common": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.sku-choco-common"
+    },
+    "sku_choco_candle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.sku-chocko-candle"
+    },
+    "vidy_shokoladas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::choco-type.choco-type"
+    },
+    "nachinka_konfetnayas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::candy-filling.candy-filling"
+    },
+    "dataFields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.composition"
+    }
+  }
+}
